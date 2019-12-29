@@ -1,14 +1,14 @@
 {
     "cartTitle": "ERICS EPOXY",
     "cartDescription": "ericsEpoxy",
-    "cartLogo": "",
+    "cartLogo": "../public/images/logo.png",
     "baseUrl": "http://localhost:1111",
     "emailHost": "smtp.gmail.com",
     "emailPort": 465,
     "emailSecure": true,
     "emailUser": "hardeman.lewis@gmail.com",
     "emailPassword": "Lewc1fer2019",
-    "emailAddress": "hi@markmoffat.com",
+    "emailAddress": "hardeman.lewis@gmail.com",
     "menuEnabled": true,
     "flatShipping": 10,
     "freeShippingAmount": 100,
@@ -26,7 +26,7 @@
     "orderHook": "",
     "availableLanguages": [
         "en",
-        "it"
+        "sp"
     ],
     "defaultLocale": "en",
     "secretCookie": "19e99055cd007bf9d8a08d5d395c338f39b4ed43",
