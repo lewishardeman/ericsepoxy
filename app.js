@@ -434,10 +434,10 @@ initDb(config.databaseConnectionString, async (err, db) => {
         await app.listen(app.get('port'));
         app.emit('appStarted');
         if(process.env.NODE_ENV !== 'test'){
-            console.log(colors.green('expressCart running on host: http://localhost:' + app.get('port')));
+            console.log(colors.green('EricsEpoxy running on host: http://localhost:' + app.get('port')));
         }
     }catch(ex){
-        console.error(colors.red('Error starting expressCart app:' + err));
+        console.error(colors.red('Error starting EricsEpoxy app:' + err));
         process.exit(2);
     }
 });
